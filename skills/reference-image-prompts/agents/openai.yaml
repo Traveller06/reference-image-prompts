@@ -1,0 +1,8 @@
+interface:
+  display_name: 参考图风格解析与图片提示词
+  short_description: 解析参考图风格，结合动作与构图指导，编写保持系列一致性的中文图片提示词
+  default_prompt: 使用 $reference-image-prompts，以我指定的图片为风格参考，其他图片仅作动作或构图指导，输出1024字符以内的中文图片提示词。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
