@@ -1,0 +1,23 @@
+{
+  "name": "reference-image-prompts",
+  "version": "1.0.0",
+  "description": "Parse image style references and compose consistent Chinese image prompts.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "参考图风格解析与图片提示词",
+    "shortDescription": "解析参考图风格与动作，生成一致的图片提示词",
+    "longDescription": "以指定图片提取色彩、光影和材质，结合动作或构图参考编写中文图片提示词，默认限制1024字符。仅编写提示词，不自动生成图片。",
+    "developerName": "Traveller06",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "第一张定风格，第二张只参考动作，改成绿豆糕，输出1024字符以内的图片提示词。"
+    ],
+    "composerIcon": "./skills/reference-image-prompts/assets/icon.svg",
+    "logo": "./skills/reference-image-prompts/assets/icon.svg"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Traveller06"
+  }
+}
